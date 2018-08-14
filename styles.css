@@ -142,6 +142,7 @@ video {
     background-color: greenyellow;
     clear: both;
     z-index: 3;
+    text-align: center;
 }
 
 #topNav {
@@ -162,7 +163,7 @@ video {
     align-items: center;
     display: flex;
     flex-direction: column;
-    margin-top: -6px;
+    margin-top: -30px;
     text-align: center;
 }
 
@@ -333,11 +334,20 @@ video {
         margin-bottom: 2em;
     }
     
+    .t-date {
+        min-width: 100px;
+    }
+    
+    .t-city {
+        min-width: 200px;
+    }
+    
     .t-date,
     .t-city,
     .t-venue,
     .buy {
         text-align: center;
+        
     }
 }
 
@@ -361,6 +371,10 @@ video {
     
     #bottomNav a {
         color: #FFF;
+    }
+    
+    #logo-holder {
+        margin-top: 12px;
     }
     
     #logo-holder p {
@@ -389,12 +403,18 @@ video {
         width: 95%;
         background-color: black;
         margin: 0 auto;
-        margin-top: 5em;
+        margin-top: 4em;
         height: 80%;
     }
     
     #topNav {
         background-color: black;
+        height: 50px
+        
+    }
+    
+    #newsBar {
+        font-size: 16px;
     }
     
     ::-webkit-scrollbar {
